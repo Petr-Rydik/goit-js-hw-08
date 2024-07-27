@@ -1,0 +1,20 @@
+.gallery-item {
+  list-style: none;
+}
+
+.gallery {
+  display: flex;
+  row-gap: 20px;
+  column-gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-image:hover {
+  cursor: url(./cursor-icon.svg#cursor-link) 16 16, auto;
+}
